@@ -1,0 +1,16 @@
+{
+  "name": "dxrjs",
+  "version": "1.0.0",
+  "description": "rxjs like library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "esbuild src/index.js --bundle --outfile=out.js && node out.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esbuild": "^0.19.11"
+  }
+}
